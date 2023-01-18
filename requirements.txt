@@ -1,0 +1,14 @@
+asgiref==3.5.2
+autopep8 @ file:///opt/conda/conda-bld/autopep8_1650463822033/work
+Brotli==1.0.9
+certifi @ file:///C:/b/abs_85o_6fm0se/croot/certifi_1671487778835/work/certifi
+dj-database-url==1.2.0
+Django==4.1.4
+gunicorn==20.1.0
+psycopg2-binary==2.9.5
+pycodestyle @ file:///tmp/build/80754af9/pycodestyle_1636635402688/work
+sqlparse==0.4.3
+toml @ file:///tmp/build/80754af9/toml_1616166611790/work
+tzdata==2022.7
+whitenoise==6.3.0
+wincertstore==0.2
