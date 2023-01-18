@@ -180,3 +180,8 @@ ahora cremos un repo normal de git
 >git init
 >git add .
 >git commit -m "primer commit"
+
+Creamos un repositorio en github
+
+Podemos retirar y comentar el pip install -r requirements.txt pues ya lo ejecuta
+render, esto lo hacemos comentando la linea y luego haciendo un push al remote repo
