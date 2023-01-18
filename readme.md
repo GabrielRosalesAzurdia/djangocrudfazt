@@ -166,7 +166,7 @@ y por úlitmo installamos gunicorn en la cmd normal
 > pip install gunicorn
 
 y obtenemos los requerimientos corriendo el siguiente archivo
-> pip freeze > requirements.txt    
+> pip list --format=freeze > requirements.txt  
 
 y en el archivo build.sh agregamos la linea antes de pytho manage.py ...
 
@@ -185,3 +185,7 @@ Creamos un repositorio en github
 
 Podemos retirar y comentar el pip install -r requirements.txt pues ya lo ejecuta
 render, esto lo hacemos comentando la linea y luego haciendo un push al remote repo
+
+La instalación fallará, vamos a enviroment variables y agregamos 
+una con nombre: PYTHON_VERSION y de valor le damos 3.10.8 que es la 
+versión a la fecha de creada esta app
