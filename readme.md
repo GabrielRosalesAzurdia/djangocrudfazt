@@ -183,9 +183,14 @@ ahora cremos un repo normal de git
 
 Creamos un repositorio en github
 
-Podemos retirar y comentar el pip install -r requirements.txt pues ya lo ejecuta
-render, esto lo hacemos comentando la linea y luego haciendo un push al remote repo
-
 La instalación fallará, vamos a enviroment variables y agregamos 
 una con nombre: PYTHON_VERSION y de valor le damos 3.10.8 que es la 
 versión a la fecha de creada esta app
+
+También debemos crear la base de datos de postgres la cual 
+agregamos y de nombre le colocamos el mismo del proyecto por 
+practicidad, también agregamos una enviroment variables que sea
+DATABASE_URL y la url interna del postgres
+
+También en el build command cambiamos el 
+pip install -r requirements.txt por ./build.sh
